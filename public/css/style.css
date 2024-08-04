@@ -1,0 +1,183 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+
+    background-color: #0b4433;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100px;
+    align-items: center;
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+header img {
+
+    width: 50px;
+}
+
+header ul {
+
+    width: 50%;
+    display: flex;
+    justify-self: center;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+header ul a {
+
+    transition-duration: 0.3s;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+}
+
+header ul a:hover {
+
+    font-size: 20px;
+    color: #f0ec89;
+}
+
+.container {
+
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+
+}
+
+.pedidos {
+
+    display: block;
+    text-align: center;
+}
+
+
+.container form {
+
+    background-color: #0b4433;
+    display: grid;
+    grid-column: 1fr;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.container form h2 {
+
+    font-size: 30px;
+    margin: 3%;
+}
+
+.container form label, input[type="text"], input[type="date"] {
+
+    width: 500px;
+    margin: 0px;
+    padding: 3px;
+}
+
+.container form textarea {
+
+    width: 500px;
+    padding: 3px;
+    height: 100px;
+}
+
+.container form input[type="submit"] {
+
+    width:  100px;
+    border-radius: 2px;
+}
+
+.container form label, input {
+
+    font-size: 15px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    height: 20px;
+}
+
+.pedidos h2 {
+
+    font-size: 30px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.pedidos table {
+
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border-right: 3px solid #0b4433;
+    border-left: 3px solid #0b4433;
+    border-bottom: 3px solid #0b4433;
+    background-color: #f0ec89;
+    box-shadow: 0px 1px 42px -8px rgba(0,0,0,0.63);
+    margin: 0;
+    color: black;
+}
+
+
+table:first-child {
+
+    margin-top: 3%;
+    border-top: 3px solid #0b4433;
+}
+
+.td_monto {
+
+    display: grid;
+    justify-content: center
+
+}
+
+#monto {
+
+    background-color: #f0ec89;
+    display: grid;
+    justify-items: center
+}
+
+#monto input {
+
+    width: 50%;
+}
+
+th,
+td {
+
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+footer {
+
+    background-color: #0b4433;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
